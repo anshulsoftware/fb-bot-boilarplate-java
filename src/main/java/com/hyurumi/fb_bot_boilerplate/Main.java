@@ -80,7 +80,7 @@ public class Main {
                     // when the message is delivered, this webhook will be triggered.
                 } else {
                     // sticker may not be supported for now.
-                    System.out.println(request.body());
+                    System.out.println("-----"+request.body());
                 }
             }
             return "";
